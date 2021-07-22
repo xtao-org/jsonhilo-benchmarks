@@ -2,12 +2,12 @@
 
 Comparing the performance of jsonhilo, clarinet, and jq.
 
-Results are in [results.html](results.html).
+Results are in [results.md](results.md).
 
 If you have Node.js, Deno, and jq on your machine, you can regenerate the results with:
 
 ```
-sh benchmark.sh
+sh benchmark.sh results.md
 ```
 
 To verify that the benchmarks produce identical results run:
